@@ -1,0 +1,28 @@
+{
+  "name": "Emotional Facts True",
+  "short_name": "EFT",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/img/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "Keep calm and think in any situation.",
+  "orientation": "portrait-primary",
+  "theme_color": "#D4FB79",
+  "background_color": "#76D6FF",
+  "prefer_related_applications": false
+}
