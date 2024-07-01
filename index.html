@@ -19,6 +19,7 @@
     <title>Emotional Freedom Techniques</title>
 
     <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
 		:root {
 			font-size: 16pt;
@@ -32,24 +33,23 @@
 
     </style>
 </head>
-<body>
-    <header>app menu</header>
-    <main class="container">
-        <h1>Emotional Freedom Techniques</h1>
-        <p>Keep calm and think in any situation.</p>
-        <form name="contact" method="POST" netlify>
-            <p>
-              <label>Name <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <button class="button" type="submit">Send</button>
-            </p>
-          </form>
+<body class="is-flex-direction-column">
+    <header class="header">app menu</header>
+    <main class="is-tall-container">
+        <section class="section">
+        <div class="container">
+          <h1>Emotional Freedom Techniques</h1>
+          <p>Keep calm and think in any situation.</p>
+          <input type="range" id="before" name="before" min="0" max="10" step="1" />
+          <label for="before">Volume</label>
+        </div>
+        </section>
+        <section>
+        <p>Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. Keep calm and think in any situation. </p>
+
+        </section>
     </main>
-    <footer>
+    <footer class="footer">
         app version: 0.0.2
     </footer>
     <script src="app.js" defer></script>
