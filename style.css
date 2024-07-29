@@ -1,9 +1,28 @@
+.main {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  background-color: aqua;
+}
 .is-tall {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
-  .is-tall-container {
-    flex: 1;
-  }
+}
+.is-tall-container {
+  flex: 1;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100hw;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100hw;
+}
+
   
